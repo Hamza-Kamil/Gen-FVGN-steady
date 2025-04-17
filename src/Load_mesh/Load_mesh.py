@@ -14,13 +14,13 @@ import torch
 import numpy as np
 import h5py
 import math
-from Utils import utilities, get_param
-from Utils.utilities import (
+from utils import utilities, get_param
+from utils.utilities import (
     generate_boundary_zone,
     calc_cell_centered_with_node_attr,
     calc_node_centered_with_cell_attr,
 )
-from Utils.utilities import NodeType
+from utils.utilities import NodeType
 from Extract_mesh.parse_to_h5 import seperate_domain,build_k_hop_edge_index
 from torch_geometric.nn import knn_graph,knn,radius,radius_graph,knn_interpolate
 from torch_geometric import utils as pyg_utils
