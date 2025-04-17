@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import circle_fit as cf
 from circle_fit import hyper_fit
-from Utils.utilities import NodeType
+from utils.utilities import NodeType
 
 
 def write_array_to_file(field, file_handle):
