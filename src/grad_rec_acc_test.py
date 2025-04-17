@@ -9,20 +9,20 @@ import numpy as np
 
 # import os
 from Load_mesh import Graph_loader
-from Utils import get_param
+from utils import get_param
 import time
-from Utils.get_param import get_hyperparam
-from Utils.Logger import Logger
+from utils.get_param import get_hyperparam
+from utils.Logger import Logger
 from Post_process.to_vtk import write_hybrid_mesh_to_vtu_2D
 from Post_process.to_tecplot import write_tecplotzone
 from torch_geometric.data.batch import Batch
-from Utils.utilities import Scalar_Eular_solution
+from utils.utilities import Scalar_Eular_solution
 import random
 import datetime
 from FVMmodel.FVdiscretization.FVgrad import node_based_WLSQ,compute_normal_matrix,Moving_LSQ,node_based_WLSQ_2nd_order
 from Extract_mesh.parse_to_h5 import seperate_domain,build_k_hop_edge_index
 import pyvista as pv
-from Utils.utilities import NodeType
+from utils.utilities import NodeType
 
 # configurate parameters
 params = get_param.params()
