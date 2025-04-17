@@ -10,10 +10,10 @@ from FVMmodel.importer import NNmodel as Simulator
 
 # import os
 from Load_mesh import Graph_loader
-from Utils import get_param
+from utils import get_param
 import time
-from Utils.get_param import get_hyperparam
-from Utils.Logger import Logger
+from utils.get_param import get_hyperparam
+from utils.Logger import Logger
 from FVMmodel.FVdiscretization.FVgrad import node_based_WLSQ
 from torch_geometric.data.batch import Batch
 import random
