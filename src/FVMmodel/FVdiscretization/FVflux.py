@@ -5,7 +5,7 @@ sys.path.append(file_dir)
 
 import torch
 import torch.nn as nn
-from Utils.utilities import (
+from utils.utilities import (
     decompose_and_trans_node_attr_to_cell_attr_graph,
     copy_geometric_data,
     NodeType,
