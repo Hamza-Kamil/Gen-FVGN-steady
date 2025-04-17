@@ -1,7 +1,7 @@
 import torch
 from torch_scatter import scatter_add, scatter_mean
 from torch_geometric.nn import knn_graph
-from Utils.utilities import NodeType
+from utils.utilities import NodeType
 
 
 def moments_order(
