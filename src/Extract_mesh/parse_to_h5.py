@@ -8,7 +8,7 @@
 import numpy as np
 import torch
 from torch_scatter import scatter
-from Utils.utilities import NodeType
+from utils.utilities import NodeType
 from Post_process.to_vtk import write_point_cloud_to_vtk
 from torch_geometric import utils as pyg_utils
 
