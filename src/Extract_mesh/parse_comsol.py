@@ -24,7 +24,7 @@ from matplotlib import animation
 from natsort import natsorted
 import h5py
 import math
-from Utils.utilities import filter_adj
+from utils.utilities import filter_adj
 from Post_process.to_vtk import write_vtp_file
 import random
 from contextlib import ExitStack
