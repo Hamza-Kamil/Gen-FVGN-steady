@@ -11,10 +11,10 @@ from FVMmodel.importer import NNmodel as Simulator
 
 # import os
 from Load_mesh import Graph_loader
-from Utils import get_param, scheduler
+from utils import get_param, scheduler
 import time
-from Utils.get_param import get_hyperparam
-from Utils.Logger import Logger
+from utils.get_param import get_hyperparam
+from utils.Logger import Logger
 from torch_geometric.nn import global_add_pool,global_mean_pool
 from torch_geometric.data.batch import Batch
 from math import ceil
